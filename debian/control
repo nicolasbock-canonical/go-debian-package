@@ -1,0 +1,14 @@
+Source: go-package
+Section: golang
+Priority: optional
+Maintainer: TODO <maintainer@example.com>
+Build-Depends: debhelper-compat (= 13), dh-golang, golang-any
+Standards-Version: 4.7.2
+Rules-Require-Root: no
+XS-Go-Import-Path: example.com/go-package
+
+Package: go-package
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: simple Go binary
+ A Go command-line program packaged for Debian.
